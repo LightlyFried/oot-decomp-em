@@ -329,7 +329,7 @@ endif
 
 #### Main Targets ###
 
-all: rom compress copy
+all: rom compress
 
 rom: $(ROM)
 ifneq ($(COMPARE),0)
